@@ -1,0 +1,23 @@
+[project]
+name = "covert-channel-detector"
+version = "1.0.0"
+description = "A tool to detect covert channels in PCAP files using packet analysis and entropy calculations."
+authors = [
+    { name = "Ashley Smith", email = "ashley@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "GNU General Public License v3.0 or later" }
+
+dependencies = [
+    "pyshark",
+    "matplotlib",
+    "termcolor"
+]
+
+[project.scripts]
+covdetect = "CovDetectV3:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
