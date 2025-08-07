@@ -17,12 +17,13 @@ Option 1: Input full file path to a .pcap or .pcapng file.
 Option 2: Input a folder path. All valid capture files in that folder will be processed.
 
 What It Analyzes
-Field	Purpose
-TTL	Histogram and entropy of IP Time-to-Live values
-TCP Sequence	Detects repetition or low entropy in sequence numbers
-IP ID	Analyzes value jumps and sequential behavior
-Payload Size	Checks for binary encoding via payload sizes
-Inter-Packet Delay	Detects timing-based covert channels
+Field	                Purpose
+TTL	                  Histogram and entropy of IP Time-to-Live values
+TCP Sequence	        Detects repetition or low entropy in sequence numbers
+IP ID	                Analyzes value jumps and sequential behavior
+Payload Size	        Checks for binary encoding via payload sizes
+Inter-Packet Delay	  Detects timing-based covert channels
+
 
 Output Files
 Each analyzed file generates:
